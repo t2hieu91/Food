@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import yelp from "../api/yelp";
 
+// This func moved from SearchScreen.js
 export default () => {
 	const [ results, setResults ] = useState([]);
 	const [ errorMessage, setErrorMessage ] = useState('');
